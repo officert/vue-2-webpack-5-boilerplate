@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module",
+    "ecmaVersion": 2018
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/base",
+    "plugin:vue/essential",
+    "plugin:vue/strongly-recommended",
+    "plugin:vue/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "plugins": [
+    "prettier",
+    "vue"
+  ]
+}
